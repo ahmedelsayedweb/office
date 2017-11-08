@@ -1,0 +1,626 @@
+/*------------------------------------------------------------------
+[Responsive Stylesheet]
+
+Template Name: LUSTER
+Version:    1.0
+Descriptions:LUSTER Is A Corporate & Business HTML5 Template
+Author: Fahmid Ahmed Chowdhury
+
+-------------------------------------------------------------------*/
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .menu ul li {
+        display: inline-block;
+        margin: 10px 18px;
+    }
+
+
+    .single_team_member_image_area:hover .single_team_member_social {
+        display: block;
+        background-color: #068ac8;
+        position: absolute;
+        width: 215px;
+        padding: 90px 0px 90px 0px;
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+        -webkit-animation-duration: .3s;
+        animation-duration: .3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+    }
+
+    .single_team_member_social {
+        display: none;
+        margin-top: -213px;
+    }
+
+    .fotter_content_instagram img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .banner_text {
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+	.modal-content img {
+	margin: auto;
+	margin-top: 100px;
+	height: 400px;
+}
+}
+
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        display: none;
+    }
+    .mobileMenu_icon {
+        display: block;
+        color: #068AC8;
+        font-size: 20px;
+    }
+    .mobilemenu {
+        background-color: #068AC8;
+        padding: 25px 57px 19px 0px;
+        position: absolute;
+        width: 161%;
+        z-index: 999;
+        margin-top: 40px;
+        opacity: 0.7;
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+        -webkit-animation-duration: .3s;
+        animation-duration: .3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeInDown;
+        /* animation-name: fadeInDown; */
+        left: -251px;
+        right: 0px;
+        /* margin: auto; */
+    }
+    .mobilemenu ul li {
+        list-style: none;
+        border-bottom: 1px solid aliceblue;
+        padding: 11px 0px 11px 0px;
+    }
+    .mobilemenu ul li:last-child {
+        border: none;
+    }
+    .mobilemenu ul li:hover {
+        background-color: #626060;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .mobilemenu ul li a {
+
+        color: #fff;
+
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .mobilemenu ul li {
+        text-decoration: none;
+        font-family: abel;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 0.5px;
+    }
+    .footer_content_image_row img {
+        width: 50px;
+    }
+
+    .blog_post_by_person {
+        margin-top: -2px;
+        margin-left: -22px;
+    }
+
+
+    .single_team_memeber_area {
+        text-align: center;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+    }
+
+    .single_team_member_image_area:hover .single_team_member_social {
+        display: block;
+        background-color: #068ac8;
+        position: absolute;
+        width: 263px;
+        padding: 116px 0px 116px 0px;
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+        -webkit-animation-duration: .3s;
+        animation-duration: .3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+    }
+
+    .single_team_member_social {
+        display: none;
+        margin-top: -262px;
+        margin-left: 41px;
+    }
+
+    .single_team_member_social ul li {
+        display: inline-block;
+        padding: 0px;
+    }
+
+
+    .fotter_content_instagram img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .banner_text {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .plan_price h2 {
+        font-size: 28px;
+        font-family: 'Roboto', sans-serif;
+        color: #626060;
+    }
+
+    .footter_area {
+        background-color: #068ac8;
+        padding: 70px 0px 45px 0px;
+    }
+
+    .about_us_first_area_right_paragraph {
+        margin-bottom: -20px;
+    }
+    #portfolio {
+
+        column-count: 2;
+
+        margin: 10px;
+    }
+    .single_testimonial_section {
+        padding: 0px 50px 0px 50px;
+    }
+    .single_testimonial_area {
+        padding: 0px 95px 0px 95px;
+    }
+	.modal-content img {
+	margin: auto;
+	margin-top: 121px !important;
+	height: 377px;
+    }
+}
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 479px) {
+
+    .menu {
+        display: none;
+    }
+    .mobileMenu_icon {
+        display: block;
+        color: #068AC8;
+        font-size: 20px;
+        margin-top: -55px;
+        position: relative;
+        float: right;
+    }
+
+
+    .mobilemenu {
+        background-color: #068AC8;
+        padding: 25px 57px 19px 0px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        margin-top: 4px;
+        opacity: 0.7;
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+        -webkit-animation-duration: .3s;
+        animation-duration: .3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        left: 0px;
+    }
+
+    .mobilemenu ul li {
+        list-style: none;
+        border-bottom: 1px solid aliceblue;
+        padding: 11px 0px 11px 0px;
+    }
+    .mobilemenu ul li:last-child {
+        border: none;
+    }
+    .mobilemenu ul li:hover {
+        background-color: #626060;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .mobilemenu ul li a {
+
+        color: #fff;
+
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .mobilemenu ul li {
+        text-decoration: none;
+        font-family: abel;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 0.5px;
+    }
+
+    .logo_menu_area {
+        position: relative;
+        padding: 26px 0px 10px 0px!important;
+
+        -webkit-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+    .header_top_left_area p {
+
+        font-size: 10px;
+        margin-top: -18px;
+        margin-left: 13px;
+        font-weight: normal;
+        letter-spacing: 0px;
+    }
+    .header_top_right_area ul li a {
+
+        font-size: 10px;
+    }
+    .header_top_right_area ul li {
+        display: inline-block;
+        margin: 0px 2px;
+    }
+    .copy_right_area p {
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 0px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .copy_right_area_social_icons {
+        text-align: center;
+        margin-left: -34px;
+    }
+    .fotter_title {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .fotter_content {
+        margin-top: 20px;
+    }
+    .fotter_content p {
+
+        text-align: center;
+    }
+    .fotter_content_instagram {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .project_done_promotion_single_area {
+        text-align: center;
+    }
+    .blog_post_by_person {
+        margin-top: -22px;
+        margin-left: 18px;
+    }
+
+
+    .single_service_area {
+        text-align: center;
+    }
+    .responsive_top_spacing {
+        margin-top: 60px;
+    }
+    .fotter_content ul li {
+        list-style: none;
+        margin-left: -35px;
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .single_team_memeber_area {
+        text-align: center;
+    }
+    .single_team_member_social {
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: 0px;
+    }
+    .fotter_content_instagram img {
+        width: 40px;
+        height: 40px;
+    }
+    .single_brand_area {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .banner_text {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    #portfolio {
+
+        column-count: 1;
+
+        margin: 10px;
+    }
+    .project_done_promotion_single_area {
+        margin-bottom: 20px;
+    }
+    .footter_area {
+
+        padding: 20px 0px 40px 0px;
+    }
+    .about_us_first_area_right_paragraph {
+        margin-bottom: -30px;
+    }
+    .folio-menu {
+        margin-bottom: 50px;
+
+        text-align: center;
+    }
+    .folio-menu li {
+        color: #626060;
+        font-family: 'Roboto', sans-serif;
+        font-size: 8px;
+        cursor: pointer;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+        text-transform: uppercase;
+        margin: 0px 0px;
+    }
+    .single_testimonial_section {
+        padding: 0px 10px 0px 10px;
+    }
+    .single_testimonial_area {
+        padding: 0px 30px 0px 30px;
+    }
+.modal-content img {
+	margin: auto;
+	margin-top: 153px !important;
+	height: 280px;
+}
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+    .mobileMenu_icon {
+        display: block;
+        color: #068AC8;
+        font-size: 20px;
+        margin-top: -55px;
+        position: relative;
+        float: right;
+    }
+
+
+    .mobilemenu {
+        background-color: #068AC8;
+        padding: 25px 57px 19px 0px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        margin-top: 4px;
+        opacity: 0.7;
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+        -webkit-animation-duration: .3s;
+        animation-duration: .3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        left: 0px;
+    }
+
+    .mobilemenu ul li {
+        list-style: none;
+        border-bottom: 1px solid aliceblue;
+        padding: 11px 0px 11px 0px;
+    }
+    .mobilemenu ul li:last-child {
+        border: none;
+    }
+    .mobilemenu ul li:hover {
+        background-color: #626060;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .mobilemenu ul li a {
+
+        color: #fff;
+
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .mobilemenu ul li {
+        text-decoration: none;
+        font-family: abel;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 0.5px;
+    }
+
+    .logo_menu_area {
+        position: relative;
+        padding: 26px 0px 10px 0px!important;
+
+        -webkit-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+
+
+
+    .header_top_left_area p {
+
+        font-size: 12px;
+        margin-top: -18px;
+        margin-left: 13px;
+        font-weight: normal;
+        letter-spacing: 0px;
+    }
+    .header_top_right_area ul li a {
+
+        font-size: 12px;
+    }
+
+
+
+
+
+    .copy_right_area p {
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 0px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .copy_right_area_social_icons {
+        text-align: center;
+        margin-left: -34px;
+    }
+    .fotter_title {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .fotter_content {
+        margin-top: 20px;
+    }
+    .fotter_content p {
+
+        text-align: center;
+    }
+    .fotter_content_instagram {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .footter_area {
+        background-color: #068ac8;
+        padding: 20px 0px 30px 0px;
+    }
+    .project_done_promotion_single_area {
+        text-align: center;
+    }
+    .blog_post_by_person {
+        margin-top: -2px;
+        margin-left: -13px;
+    }
+
+
+    .single_service_area {
+        text-align: center;
+    }
+    .responsive_top_spacing {
+        margin-top: 60px;
+    }
+    .fotter_content ul li {
+        list-style: none;
+        margin-left: -35px;
+        margin-top: 7px;
+        text-align: center;
+    }
+    .single_team_memeber_area {
+        text-align: center;
+    }
+    .single_team_member_social {
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: 0px;
+    }
+    .fotter_content_instagram img {
+        width: 40px;
+        height: 40px;
+    }
+    .single_brand_area {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .single_brand_area:last-child {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .banner_text {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    #portfolio {
+        margin: 1rem 0;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 2;
+        margin: 10px;
+    }
+    .project_done_promotion_single_area {
+        margin-bottom: 20px;
+    }
+    .footter_area {
+
+        padding: 20px 0px 40px 0px;
+    }
+    .about_us_first_area_right_paragraph {
+        margin-bottom: -20px;
+    }
+    .single_testimonial_section {
+        padding: 0px 30px 0px 30px;
+    }
+    .single_testimonial_area {
+        padding: 0px 50px 0px 50px;
+    }
+	.modal-content img {
+	margin: auto;
+	height: 400px;
+	margin-top: 113px!important;
+}
+}
