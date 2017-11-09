@@ -142,9 +142,19 @@ body.preloader_active {
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
 	font-weight: 900;
+	text-align: center;
 	letter-spacing: 0.2px;
 }
-
+.section_title_area2 h2 {
+	color: #1a1d16;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: 0.2px;
+}
 .section_title_area p {
 	color: #e00909;
 	text-transform: uppercase;
@@ -156,10 +166,29 @@ body.preloader_active {
 	word-spacing: 1px;
 	margin-left: 5px;
 }
+.section_title_area2 h2 {
+	color: #1a1d16;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: 0.2px;
+}
 
+.section_title_area2 p {
+	    color: #404040;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 80%;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 10%;
+}
 .area {
-	padding: 80px 0px 90px 0px;
-	position: relative;
+	padding: 50px 0px 60px 0px;
+    position: relative;
+    background-color: #ececec;
 }
 .background_color_area {
     background-color: #f9f9f9;
@@ -168,8 +197,9 @@ body.preloader_active {
 .section_content_area p {
 	color: #626060;
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 20px;
 	letter-spacing: 0.2px;
+	text-align: center;
 	line-height: 32px;
 	font-weight: 300;
 	margin-bottom: 0px;
@@ -239,8 +269,10 @@ body.preloader_active {
 }
 
 .section_content_area_items {
-	margin-top: 60px;
+	padding-top: 10px;
 	margin-bottom: 0px;
+	    width: 80%;
+    margin: auto;
 }
 
 .bannaer_area {
@@ -369,7 +401,7 @@ body.preloader_active {
 
 .logo_menu_area {
     position: relative;
-    padding: 5px 0px 10px 0px;
+    padding: 5px 0px 0 0px;
 
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
@@ -464,9 +496,23 @@ body.preloader_active {
     padding-left: 0px;
 }
 
+.col-sm-6.section_content_area_items2.text-left p {
+    width: 80%;
+    display: inline-flex;
+    text-align: justify;
+    padding-left: 11px;
+    line-height: 25px;
+	padding-top: 0 !important;
+    font-size: 16px;
+}
+.col-sm-6.section_content_area_items2.text-left {
+    min-height: 227px;
+    margin-top: 30px;
+}
 
-
-
+.section_content_icons {
+    display: inline-flex;
+}
 
 /*==========LOGO MENU AREA CSS========*/
 
@@ -1047,7 +1093,15 @@ body.preloader_active {
     margin-bottom: 50px;
 }
 
-
+section#protfolio {
+    background-color: #333;
+    color: #fff;
+	padding: 45px 0px 60px 0px;
+}
+section#protfolio h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
 /*============PROTFOLIO STYLE ==================*/
 
 
@@ -1218,8 +1272,9 @@ body.preloader_active {
 }
 
 .fotter_content_instagram img {
-    width: 61px;
-    height: 61px;
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 
@@ -1250,6 +1305,11 @@ body.preloader_active {
     padding: 3px 7px 3px 7px;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
+	   font-size: 6px;
+    width: 6%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
 }
 
 .copy_right_area_social_icons ul li a {
@@ -1261,9 +1321,11 @@ body.preloader_active {
 }
 
 .copy_right_area_social_icons ul li:nth-last-child(3) {
-    font-size: 6px;
-
-    padding: 5px 2px 6px 6px;
+        font-size: 6px;
+    width: 6%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
 }
 
 .copy_right_area_social_icons ul li:nth-last-child(4) {
@@ -1282,6 +1344,35 @@ body.preloader_active {
 .logo_area img {
     max-width: 54%;
 }
-
+#content .gallery .gllr_image_block a, .gallery .gllr_image_block a {
+    display: block;
+    position: relative;
+    color: rgba(0,0,0,0);
+    border: none;
+    background: none;
+    margin-bottom: 20px;
+    padding: 0;
+    border-bottom: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+section#contact h2 {
+    margin-bottom: 35px;
+}
+label.screen-reader-text {
+    display: none;
+}
+.header_top_left_area {
+    display: inline-block;
+}
+aside#polylang-2 {
+    display: inline-block;
+    margin-left: 20px;
+}
+select#lang_choice_polylang-2 {
+    border: none;
+    padding: 4px 20px;
+    font-size: 16px;
+}
 
 /*==========copy_right_area CSS========*/

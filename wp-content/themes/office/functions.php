@@ -18,6 +18,10 @@ function ahmed_add_styles() {
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/css/style.css');
 	wp_enqueue_style('animate', get_template_directory_uri() . '/assets/css/animate.css');
 	wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/css/responsive.css');
+	$lang = custom_get_current_lang();
+    if($lang == 'ar'){
+        wp_enqueue_style('ar', get_template_directory_uri() . '/assets/css/style_ar.css');        
+    }
 }
 /*
 ** Function to Add custom Scripts

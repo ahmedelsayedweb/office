@@ -1474,6 +1474,7 @@
 .wrap.settings-wrap .ui-tabs-nav li { 
   border: 1px solid transparent; 
   border-right-width: 0px; 
+	    width: 100%;
   display: block; margin: 0; 
   -webkit-border-radius: 2px 0 0 2px;
      -moz-border-radius: 2px 0 0 2px;
@@ -1491,15 +1492,17 @@
     padding: 3px 0px 3px 20px;
     text-decoration: none;
     font-size: 18px;
+	    width: 89% !important;
+    background-color: #23282d;
 }
 .wrap.settings-wrap .ui-tabs-nav li a:hover { 
   color: #fff; 
   outline: none; 
 }
 .wrap.settings-wrap .ui-tabs-nav li.ui-state-active a { 
-  color: #23282d; 
-	
-  outline: none; 
+      color: #ff2300;
+    outline: none;
+    font-size: 20px;
 }
 .wrap.settings-wrap .ui-tabs-panel { 
   clear: both; 
